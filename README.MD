@@ -2,6 +2,10 @@
 
 This is a simple quiz application where users can answer a series of true/false questions and receive a score at the end.
 
+## Live demo
+
+See it deployed at https://clever-parfait-918e90.netlify.app/
+
 ## Features
 
 * Users can start the quiz by clicking the "Begin" button on the welcome screen.
@@ -17,6 +21,39 @@ This is a simple quiz application where users can answer a series of true/false 
 * Zustand for state management
 * @tanstack/react-query for API requests
 * Tailwind CSS for styling
+
+## Usage
+
+Clone the repository
+
+```bash
+git clone https://github.com/revnandi/quiz
+```
+
+Change into the project directory
+
+```bash
+cd quiz
+```
+
+Install dependencies
+
+```bash
+yarn install
+```
+
+Start the development server
+
+```bash
+yarn dev
+```
+
+The app should now be running at http://localhost:5173.
+
+## API
+The trivia api used is available [here](https://opentdb.com/api.php?amount=10&difficulty=hard&type=boolean).
+
+
   
 ## TODO
 * Add tests
